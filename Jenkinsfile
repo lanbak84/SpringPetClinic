@@ -1,6 +1,6 @@
 pipeline{
     agent{label 'master'}
-    tools{maven 'M3'}
+    tools{maven 'maven'}
     stages{
         stage('Checkout'){
             steps{
